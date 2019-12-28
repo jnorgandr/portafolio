@@ -2,3 +2,21 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-family: "Rubik", sans-serif;
 }
+
+header {
+  background-image: url("../img/bg_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hr-hero {
+  background-color: #ffffff;
+}
+
+.carousel-indicators li {
+  background-color: #f00304;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}

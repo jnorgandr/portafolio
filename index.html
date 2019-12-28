@@ -72,7 +72,7 @@
       </div>
     </header>
     <section>
-      <div class="container">
+      <div class="container d-none d-sm-block">
         <p class="text-center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
           inventore laboriosam cumque nobis doloribus pariatur quos nemo
@@ -289,7 +289,67 @@
       </div>
     </section>
     <!-- Contact Section -->
+    <section class="container mt-5">
+      <div class="text-center">
+        <h1 class="display-5 font-weight-bold">CONTACTO</h1>
+        <hr />
+      </div>
+      <div>
+        <div
+          class="typeform-widget"
+          data-url="https://minti.typeform.com/to/MdgYXM"
+          style="width: 100%; height: 500px;"
+        ></div>
+        <script>
+          (function() {
+            var qs,
+              js,
+              q,
+              s,
+              d = document,
+              gi = d.getElementById,
+              ce = d.createElement,
+              gt = d.getElementsByTagName,
+              id = "typef_orm",
+              b = "https://embed.typeform.com/";
+            if (!gi.call(d, id)) {
+              js = ce.call(d, "script");
+              js.id = id;
+              js.src = b + "embed.js";
+              q = gt.call(d, "script")[0];
+              q.parentNode.insertBefore(js, q);
+            }
+          })();
+        </script>
+        <div
+          style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"
+        >
+          powered by
+          <a
+            href="https://admin.typeform.com/signup?utm_campaign=MdgYXM&utm_source=typeform.com-15196634-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+            style="color: #999"
+            target="_blank"
+            >Typeform</a
+          >
+        </div>
+      </div>
+    </section>
     <!-- Footer Section -->
+    <footer class="p-5">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+              <h2 class="font-weight-bold">Logo</h2>
+            </div>       
+            <ul class="col-md-6 d-flex align-items-center justify-content-center">
+              <i class="fab fa-github-square fa-4x mx-3"></i>
+              <i class="fab fa-linkedin fa-4x mx-3"></i>
+              <i class="fab fa-twitter-square fa-4x mx-3"></i>
+              <i class="fab fa-facebook-square fa-4x mx-3"></i>
+            </ul>
+        
+      </div>
+    </footer>
     <!-- JS Scripts for Bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

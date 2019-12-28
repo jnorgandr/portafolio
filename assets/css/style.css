@@ -1,6 +1,5 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-family: "Rubik", sans-serif;
 }
 
 header {
@@ -13,10 +12,23 @@ header {
   background-color: #ffffff;
 }
 
+#works {
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  font-family: "Rubik", sans-serif;
+}
+
 .carousel-indicators li {
   background-color: #f00304;
 }
 
 .carousel-indicators .active {
   background-color: black;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-weight: 300;
 }

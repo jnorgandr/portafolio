@@ -23,6 +23,10 @@ footer {
   font-family: "Rubik", sans-serif;
 }
 
+#cv-button {
+  background: #330867;
+}
+
 #works {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   font-family: "Rubik", sans-serif;

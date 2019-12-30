@@ -1,28 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
 header {
-  background-image: url("../img/bg_hero.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  padding-top: 20em;
 }
 
 footer {
-  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  background-color: #30cfd0;
 }
 
-#hr-hero {
-  background-color: #ffffff;
-}
-
-#works {
-  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+#logo {
   font-family: "Rubik", sans-serif;
 }
 
-.carousel-indicators li {
-  background-color: #f00304;
+#works {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+  background-color: #330867;
+}
+
+.jumbotron {
+  text-align: end;
+}
+
+.parrafo-exp {
+  text-justify: auto;
 }
 
 .carousel-indicators .active {

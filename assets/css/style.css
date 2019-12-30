@@ -15,6 +15,10 @@ header {
   padding-top: 20em;
 }
 
+i {
+  color: #330867;
+}
+
 footer {
   background-color: #30cfd0;
 }
@@ -32,12 +36,22 @@ footer {
   font-family: "Rubik", sans-serif;
 }
 
+#line-contact {
+  border-color: #30cfd0;
+  border-width: 2px;
+}
+
 .navbar {
   background-color: #330867;
 }
 
 .jumbotron {
   text-align: end;
+}
+
+.subline {
+  border-color: #330867;
+  border-width: 2px;
 }
 
 .parrafo-exp {
